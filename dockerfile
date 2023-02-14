@@ -5,7 +5,7 @@ LABEL maintainer="shahbaazimamkhan"
 LABEL version=1.0
 LABEL appname=LAMP
 ENTRYPOINT [ "executable" ]
-RUN apt get update && \
+RUN apt update && \
     apt install apache2 -y
 RUN apt install mysql-server -y
 RUN apt install php -y && \
