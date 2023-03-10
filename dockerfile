@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:rolling
 LABEL maintainer="shahbaazimamkhan"
 LABEL version=1.0
 LABEL appname=LAMP
